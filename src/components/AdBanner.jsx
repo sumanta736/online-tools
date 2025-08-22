@@ -3,7 +3,7 @@ import { useEffect, UseRef } from "react";
 export default function AdBanner({adSlotId}) {
   const ref = UseRef();
 
-  useEffect(() ->{
+  useEffect(() =>{
     try {
       if (window.adsbygoogle && ref.current){
         window.adsbygoogle.push({});
