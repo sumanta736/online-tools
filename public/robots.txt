@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://sumanta736.github.io/online-tools/sitemap.xml
