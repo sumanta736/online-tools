@@ -1,0 +1,1 @@
+export default function CaseConverter() { return <div>Case Converter Tool</div>; }
