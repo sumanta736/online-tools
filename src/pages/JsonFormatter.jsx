@@ -1,0 +1,1 @@
+export default function JsonFormatter() { return <div>JSON Formatter Tool</div>; }
