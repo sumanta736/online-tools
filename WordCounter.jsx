@@ -1,1 +1,0 @@
-export default function WordCounter() { return <div>Word Counter Tool</div>; }
