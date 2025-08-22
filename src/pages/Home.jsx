@@ -16,7 +16,7 @@ export default function Home() {
       <p className="text-gray-600 mb-6">Handy utilities for text, devs & creators. SEO-optimized and free to use</p>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {cards.map((c) ->(
+        {cards.map((c) =>(
           <Link key={c.to} to={c.to} className="p-5 bg-white border rounded-2xl hover:shadow transition">
             <div className="font-semibold mb-1">{c.title}</div>
              <div className="text-sm text-gray-600">{c.desc}</div>
