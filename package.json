@@ -2,7 +2,7 @@
   "name": "online-tools",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://YOUR_USERNAME.github.io/online-tools",
+  "homepage": "https://sumana736.github.io/online-tools",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
