@@ -117,6 +117,25 @@ const tools = [
   },
 ];
 
+// AdMob Banner Component
+function AdBanner() {
+  React.useEffect(() => {
+    if (window.adsbygoogle && process.env.NODE_ENV === 'production') {
+      try {
+        window.adsbygoogle.push({});
+      } catch (e) {}
+    }
+  }, []);
+  return (
+    <ins className="adsbygoogle"
+      style={{ display: 'block' }}
+      data-ad-client="ca-app-pub-5324079487163568~3139918552"
+      data-ad-slot="6561941204"
+      data-ad-format="auto"
+      data-full-width-responsive="true"></ins>
+  );
+}
+
 function App() {
   const [route, setRoute] = React.useState('home');
 
@@ -715,6 +734,8 @@ function App() {
         <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
         <p className="subtitle">Free, fast, and easy-to-use web utilities for everyone.</p>
       </header>
+      {/* AdMob Banner Below Hero */}
+      <AdBanner />
       {/* AdSense Ad Unit Placeholder */}
       <div className="ad-container">
         {/* Insert your Google AdSense code below */}
