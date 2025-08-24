@@ -4,8 +4,9 @@ function TextExpander() {
   const [input, setInput] = useState('');
   const [output, setOutput] = useState('');
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
 
-  // Demo: repeats and elaborates
+  // No free public API for text expansion, so keep demo logic
   function expandText(text) {
     if (!text.trim()) return '';
     return text + ' ... In other words, ' + text.split(' ').map(w => w).join(' ') + '. This means: ' + text;
@@ -13,6 +14,7 @@ function TextExpander() {
 
   const handleExpand = () => {
     setLoading(true);
+    setError('');
     setTimeout(() => {
       setOutput(expandText(input));
       setLoading(false);
@@ -22,7 +24,7 @@ function TextExpander() {
   return (
     <div className="tool-feature-container">
       <h2>AI Text Expander</h2>
-      <p>Expand short text into a longer, more detailed version (demo only).</p>
+      <p>Expand short text into a longer, more detailed version (no free public AI API available, using demo logic).</p>
       <textarea
         rows={4}
         style={{width: '100%', fontSize: '1.1rem', borderRadius: 6, border: '1px solid #ddd', padding: 8}}
@@ -35,6 +37,7 @@ function TextExpander() {
           {loading ? 'Expanding...' : 'Expand Text'}
         </button>
       </div>
+      {error && <div style={{color: 'red', marginTop: 8}}>{error}</div>}
       {output && (
         <div style={{marginTop: 16}}>
           <textarea

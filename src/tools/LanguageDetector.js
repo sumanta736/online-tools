@@ -1,23 +1,17 @@
 import React, { useState } from 'react';
+import LanguageDetect from 'languagedetect';
 
 function LanguageDetector() {
   const [input, setInput] = useState('');
   const [lang, setLang] = useState('');
   const [loading, setLoading] = useState(false);
-
-  // Demo: simple keyword-based detection
-  function detectLanguage(text) {
-    if (/\b(el|la|los|las|un|una|es|y|pero|por)\b/i.test(text)) return 'Spanish';
-    if (/\b(le|la|les|un|une|et|mais|pour)\b/i.test(text)) return 'French';
-    if (/\b(der|die|das|und|aber|für)\b/i.test(text)) return 'German';
-    if (/\b(the|and|but|for|is|are|of|to)\b/i.test(text)) return 'English';
-    return 'Unknown';
-  }
+  const lngDetector = new LanguageDetect();
 
   const handleDetect = () => {
     setLoading(true);
     setTimeout(() => {
-      setLang(detectLanguage(input));
+      const result = lngDetector.detect(input, 1);
+      setLang(result.length ? result[0][0] : 'Unknown');
       setLoading(false);
     }, 500);
   };
@@ -25,7 +19,7 @@ function LanguageDetector() {
   return (
     <div className="tool-feature-container">
       <h2>AI Language Detector</h2>
-      <p>Detect the language of your text (demo only).</p>
+      <p>Detect the language of your text (powered by languagedetect).</p>
       <textarea
         rows={4}
         style={{width: '100%', fontSize: '1.1rem', borderRadius: 6, border: '1px solid #ddd', padding: 8}}
