@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import './App.css';
 import ImageCompressor from './tools/ImageCompressor';
 import PasswordGenerator from './tools/PasswordGenerator';
@@ -133,6 +134,12 @@ function App() {
   if (route === 'image-compressor') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>Image Compressor - Online Tools</title>
+          <meta name="description" content="Compress images online quickly and efficiently. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="image compressor, compress images, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#image-compressor" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -165,6 +172,12 @@ function App() {
   if (route === 'password-generator') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>Password Generator - Online Tools</title>
+          <meta name="description" content="Generate strong, secure passwords instantly. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="password generator, secure passwords, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#password-generator" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -197,6 +210,12 @@ function App() {
   if (route === 'qr-generator') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>QR Generator - Online Tools</title>
+          <meta name="description" content="Create QR codes for URLs, text, and more. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="QR generator, create QR codes, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#qr-generator" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -229,6 +248,12 @@ function App() {
   if (route === 'json-formatter') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>JSON Formatter - Online Tools</title>
+          <meta name="description" content="Format and validate your JSON data. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="JSON formatter, validate JSON, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#json-formatter" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -261,6 +286,12 @@ function App() {
   if (route === 'ai-text-summarizer') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>AI Text Summarizer - Online Tools</title>
+          <meta name="description" content="Summarize long text into concise highlights using AI. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="text summarizer, AI tools, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#ai-text-summarizer" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -293,6 +324,12 @@ function App() {
   if (route === 'ai-sentiment-analyzer') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>AI Sentiment Analyzer - Online Tools</title>
+          <meta name="description" content="Detect the sentiment of your text using AI. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="sentiment analyzer, AI tools, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#ai-sentiment-analyzer" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -325,6 +362,12 @@ function App() {
   if (route === 'ai-paraphraser') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>AI Paraphraser - Online Tools</title>
+          <meta name="description" content="Rewrite your text in a different way using AI. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="paraphraser, AI tools, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#ai-paraphraser" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -357,6 +400,12 @@ function App() {
   if (route === 'word-counter') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>Word & Character Counter - Online Tools</title>
+          <meta name="description" content="Count words and characters in your text instantly. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="word counter, character counter, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#word-counter" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -388,6 +437,12 @@ function App() {
   if (route === 'case-converter') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>Case Converter - Online Tools</title>
+          <meta name="description" content="Convert your text to UPPERCASE, lowercase, or Title Case. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="case converter, text tools, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#case-converter" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -419,6 +474,12 @@ function App() {
   if (route === 'base64-encoder') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>Base64 Encoder / Decoder - Online Tools</title>
+          <meta name="description" content="Encode or decode text to and from Base64 format. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="base64 encoder, base64 decoder, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#base64-encoder" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -450,6 +511,12 @@ function App() {
   if (route === 'url-encoder') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>URL Encoder / Decoder - Online Tools</title>
+          <meta name="description" content="Encode or decode URLs for safe transmission. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="URL encoder, URL decoder, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#url-encoder" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -481,6 +548,12 @@ function App() {
   if (route === 'remove-duplicates') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>Remove Duplicate Lines - Online Tools</title>
+          <meta name="description" content="Remove duplicate lines from your text easily. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="remove duplicates, text tools, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#remove-duplicates" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -512,6 +585,12 @@ function App() {
   if (route === 'ai-grammar-checker') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>AI Grammar Checker - Online Tools</title>
+          <meta name="description" content="Check and correct grammar in your text using AI. Free, fast, and easy-to-use grammar checker." />
+          <meta name="keywords" content="grammar checker, AI grammar, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#ai-grammar-checker" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -536,6 +615,12 @@ function App() {
   if (route === 'ai-plagiarism-checker') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>AI Plagiarism Checker - Online Tools</title>
+          <meta name="description" content="Check if your text is original using AI. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="plagiarism checker, AI tools, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#ai-plagiarism-checker" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -560,6 +645,12 @@ function App() {
   if (route === 'ai-text-expander') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>AI Text Expander - Online Tools</title>
+          <meta name="description" content="Expand short text into a longer, more detailed version using AI. Free, fast, and easy-to-use web utility." />
+          <meta name="keywords" content="text expander, AI tools, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#ai-text-expander" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -584,6 +675,12 @@ function App() {
   if (route === 'ai-language-detector') {
     return (
       <main className="main-container">
+        <Helmet>
+          <title>AI Language Detector - Online Tools</title>
+          <meta name="description" content="Detect the language of your text using AI. Free, fast, and easy-to-use language detector." />
+          <meta name="keywords" content="language detector, AI language, online tools, free tools, web utilities" />
+          <link rel="canonical" href="https://sumanta736.github.io/online-tools/#ai-language-detector" />
+        </Helmet>
         <header className="hero">
           <h1>Online Tools</h1>
           <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
@@ -607,6 +704,12 @@ function App() {
 
   return (
     <main className="main-container">
+      <Helmet>
+        <title>Online Tools - A Collection of Free, Fast & Smart Utilities</title>
+        <meta name="description" content="Explore a collection of free, fast, and easy-to-use web utilities for everyone. From image compression to AI tools, we have it all." />
+        <meta name="keywords" content="online tools, free tools, web utilities, AI tools, image compressor, password generator" />
+        <link rel="canonical" href="https://sumanta736.github.io/online-tools/" />
+      </Helmet>
       <header className="hero">
         <h1>Online Tools</h1>
         <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
