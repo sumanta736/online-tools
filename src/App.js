@@ -12,6 +12,10 @@ import CaseConverter from './tools/CaseConverter';
 import Base64Encoder from './tools/Base64Encoder';
 import URLDecoder from './tools/URLDecoder';
 import RemoveDuplicates from './tools/RemoveDuplicates';
+import GrammarChecker from './tools/GrammarChecker';
+import PlagiarismChecker from './tools/PlagiarismChecker';
+import TextExpander from './tools/TextExpander';
+import LanguageDetector from './tools/LanguageDetector';
 
 const tools = [
   {
@@ -85,6 +89,30 @@ const tools = [
     description: 'Remove duplicate lines from your text easily.',
     link: '#remove-duplicates',
     icon: '🧹',
+  },
+  {
+    name: 'AI Grammar Checker',
+    description: 'Check and correct grammar in your text using AI.',
+    link: '#ai-grammar-checker',
+    icon: '✍️',
+  },
+  {
+    name: 'AI Plagiarism Checker',
+    description: 'Check if your text is original using AI.',
+    link: '#ai-plagiarism-checker',
+    icon: '📚',
+  },
+  {
+    name: 'AI Text Expander',
+    description: 'Expand short text into a longer, more detailed version using AI.',
+    link: '#ai-text-expander',
+    icon: '🔎',
+  },
+  {
+    name: 'AI Language Detector',
+    description: 'Detect the language of your text using AI.',
+    link: '#ai-language-detector',
+    icon: '🌍',
   },
 ];
 
@@ -468,6 +496,102 @@ function App() {
             data-ad-format="auto"
             data-full-width-responsive="true"></ins> */}
         </footer>
+        <footer className="footer">
+          <div className="footer-content">
+            &copy; {new Date().getFullYear()} Online Tools. All rights reserved.
+            <span> | </span>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <span> | </span>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
+          </div>
+        </footer>
+      </main>
+    );
+  }
+
+  if (route === 'ai-grammar-checker') {
+    return (
+      <main className="main-container">
+        <header className="hero">
+          <h1>Online Tools</h1>
+          <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
+          <p className="subtitle">Free, fast, and easy-to-use web utilities for everyone.</p>
+        </header>
+        <div className="ad-container"></div>
+        <GrammarChecker />
+        <footer className="footer-ad-container"></footer>
+        <footer className="footer">
+          <div className="footer-content">
+            &copy; {new Date().getFullYear()} Online Tools. All rights reserved.
+            <span> | </span>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <span> | </span>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
+          </div>
+        </footer>
+      </main>
+    );
+  }
+
+  if (route === 'ai-plagiarism-checker') {
+    return (
+      <main className="main-container">
+        <header className="hero">
+          <h1>Online Tools</h1>
+          <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
+          <p className="subtitle">Free, fast, and easy-to-use web utilities for everyone.</p>
+        </header>
+        <div className="ad-container"></div>
+        <PlagiarismChecker />
+        <footer className="footer-ad-container"></footer>
+        <footer className="footer">
+          <div className="footer-content">
+            &copy; {new Date().getFullYear()} Online Tools. All rights reserved.
+            <span> | </span>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <span> | </span>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
+          </div>
+        </footer>
+      </main>
+    );
+  }
+
+  if (route === 'ai-text-expander') {
+    return (
+      <main className="main-container">
+        <header className="hero">
+          <h1>Online Tools</h1>
+          <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
+          <p className="subtitle">Free, fast, and easy-to-use web utilities for everyone.</p>
+        </header>
+        <div className="ad-container"></div>
+        <TextExpander />
+        <footer className="footer-ad-container"></footer>
+        <footer className="footer">
+          <div className="footer-content">
+            &copy; {new Date().getFullYear()} Online Tools. All rights reserved.
+            <span> | </span>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <span> | </span>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
+          </div>
+        </footer>
+      </main>
+    );
+  }
+
+  if (route === 'ai-language-detector') {
+    return (
+      <main className="main-container">
+        <header className="hero">
+          <h1>Online Tools</h1>
+          <div className="sub-header">A collection of free, fast & smart utilities for everyone</div>
+          <p className="subtitle">Free, fast, and easy-to-use web utilities for everyone.</p>
+        </header>
+        <div className="ad-container"></div>
+        <LanguageDetector />
+        <footer className="footer-ad-container"></footer>
         <footer className="footer">
           <div className="footer-content">
             &copy; {new Date().getFullYear()} Online Tools. All rights reserved.
