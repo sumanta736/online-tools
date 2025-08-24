@@ -127,7 +127,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -159,7 +159,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -191,7 +191,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -223,7 +223,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -255,7 +255,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -287,7 +287,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -319,7 +319,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -350,7 +350,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -381,7 +381,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -412,7 +412,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -443,7 +443,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -474,7 +474,7 @@ function App() {
             <span> | </span>
             <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
             <span> | </span>
-            <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
           </div>
         </footer>
       </main>
@@ -523,7 +523,7 @@ function App() {
           <span> | </span>
           <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
           <span> | </span>
-          <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+          <a href="javascript:void(0)" tabIndex="-1" aria-disabled="true" className="footer-link-disabled">Contact</a>
         </div>
       </footer>
     </main>
